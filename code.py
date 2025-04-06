@@ -40,7 +40,7 @@ def apple_turtles(letters):
 
 
 def draw_letters(letters, turtles):
-    drawers = []  # This will hold the letters
+    drawers = []  
     for i in range(len(turtles)):
         drawer = trtl.Turtle()  
         drawer.penup()
